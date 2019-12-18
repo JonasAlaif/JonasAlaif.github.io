@@ -1,0 +1,280 @@
+body
+{
+margin-top: 2ex;
+color: black;
+font-size : 80%;
+font-family : Verdana, Arial, Helvetica, sans-serif;
+background-color : #F2F2F2;
+}
+
+#main_panel
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#content_box
+{
+margin-left: 20px;
+margin-right: 20px;
+/*width: 780px;*/
+background-color : #FFFFFF;
+}
+
+#header_box
+{
+margin-top: 20px;
+margin-bottom: 20px;
+background-color:#003366;
+padding:5px 5px 5px 5px;
+}
+
+#header_text
+{
+font-size: x-large;
+font-family: sans-serif;
+color: #FFFFFF;
+font-weight:bold;
+}
+
+#image_right
+{
+float: right;
+margin-left: 10px;
+margin-bottom: 5px;
+}
+
+#navtree_text
+{
+font-size: small;
+font-family: sans-serif
+}
+
+
+#front_page_teaser
+{
+margin-bottom: 10px;
+border: 1px solid black;
+}
+
+#list_emph
+{
+    font-weight: bold;
+    font-size: 115%;
+}
+
+/* Navbar related --------------------------------------------------- */
+
+#navbar
+{
+float: left;
+width: 170px;
+padding-right: 30px;
+padding-bottom: 20px;
+}
+
+#indeximage
+{
+float: left;
+margin-right: 30px;
+border: 1px solid black;
+}
+
+#logoimage
+{
+float: left;
+margin-right: 30px;
+}
+
+#pub_list
+{
+List-style-type: square;
+margin-left: px;
+padding-left: 20px;
+}
+
+#readable_par
+{
+/*max-width: 40em;*/
+}
+
+#pub_item
+{
+margin-bottom: 8px;
+}
+
+#pub_span
+{
+padding: 0px;
+margin: 0px;
+display: compact;
+font-size: small;
+}
+
+#pub_title
+{
+color: rgb(0,0,200);
+}
+
+#sect
+{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+#caption
+{
+margin-left: 15px;
+margin-right: 15px;
+margin-bottom: 15px;
+font-style: italic;
+}
+
+#navbar_link
+{
+    color: #003366;
+}
+
+#nav_button
+{
+margin: 0px;
+padding: 8px 16px;
+/*border: 1px solid white;*/
+/*background: #6898AE;*/
+font-size: large;
+font-family: sans-serif;
+font-weight:bold;
+font-size:1.3em;
+    font-color: #6898AE;
+}
+
+/*width: auto;
+float: left;
+   */
+
+/*.bullet_list
+{
+font-style: italic;
+}*/
+
+
+ul.bullet_list
+{
+ list-style-position: inside;
+ padding-left: 30px;
+}
+
+
+.teaser_image
+{
+float: left;
+margin-left: 15px;
+}
+
+#nav_button_sel
+{
+margin: 0px;
+padding: 8px 16px;
+border-top: 1px solid white;
+border-right: 1px solid white;
+border-left: 1px solid white;
+font-size: large;
+font-family: sans-serif;
+background: #003366;
+color: #FFFFFF;
+}
+
+img.teaser
+{
+float: left;
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+max-width: 300px;
+overflow: hide;
+}
+
+img.conference_logo
+{
+float: right;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+max-width: 128px;
+}
+
+
+div.footer
+{
+margin-left: 10px;
+padding: 10px;
+font-color: #808080;
+font-size: small;
+}
+
+div.partitle
+{
+font-color: #6898AE;
+font-size: medium;
+font-family: Lucida Sans Unicode;
+}
+
+div.projecttitle
+{
+font-color: #6898AE;
+font-family: Lucida Sans Unicode;
+}
+
+div.sect
+{
+margin-left: 10px;
+margin-right: 10px;
+display: block;
+}
+
+div.sect:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+div.clear { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+p {
+  max-width: 65em;
+}
+
+li {
+  max-width: 62em;
+}
+
+
+.project_title
+{
+font-size: large;
+font-family: sans-serif;
+min-width: 10em;
+display: block; 
+}
+
+#project_panel {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+#project_panel div.projitem {
+    display: table-cell;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    vertical-align: top;
+}
