@@ -113,7 +113,7 @@ font-size: small;
 
 #pub_title
 {
-color: rgb(0,0,200);
+font-weight: bold;
 }
 
 #sect
