@@ -28,19 +28,7 @@
 </div>
 
 <!-- Visit tracking, shouldn't affect experience -->
-<script>
-document.write = (function() {
-    var cached_function = document.write;
-    return function(stringAppend) { 
-        if(stringAppend == '<a href="https://www.freevisitorcounters.com/en/home/stats/id/616755" target="_blank"><br><img src="https://www.freevisitorcounters.com/ctrimg/counter-4.png" border="0" class="counterimg"></a>') { return; }
-        return cached_function.apply(this, [stringAppend]);
-        };
-    })();
-String.prototype.trim = function() {
-    if(this == ' ') return ' ';
-    return this.replace(/^\s+|\s+$/g, '');
-  };
-</script>
+<script src="trackblock.js"></script>
 
 
 <a href='https://www.free-counters.org/'> </a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=c64972185a377aab9eec6b0e8542fbb8e447673c'></script>
